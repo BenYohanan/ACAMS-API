@@ -40,9 +40,9 @@ namespace ACAMS_API
             }).AddEntityFrameworkStores<AppDbContext>();
 
 
-            services.AddScoped<IUserHelper, UserHelper>();
-            services.AddScoped<IDropdownHelper, DropdownHelper>();
-            services.AddScoped<IEmailHelper, EmailHelper>();
+            //services.AddScoped<IUserHelper, UserHelper>();
+            //services.AddScoped<IDropdownHelper, DropdownHelper>();
+            //services.AddScoped<IEmailHelper, EmailHelper>();
 
 
             services.Configure<CookiePolicyOptions>(options =>
